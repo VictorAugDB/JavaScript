@@ -1,0 +1,30 @@
+Operadores Parte 2:
+
+> maior
+< menor
+>= maior igual
+<= menor igual
+== igual
+=== idêntico
+!= diferente
+! negação
+|| Disjunção
+&& conjunção
+
+Operador Ternário
+?:
+Teste?True:False
+Ex:
+Média>=7?"Aprovado":"Reprovado"
+
+Ordem de precedência de condições
+
+Aritméticos + - *
+Relacionais > >= ==...
+Lógicos && || !
+
+Ordem de precedência Operadores Lógicos
+
+!
+&&
+||

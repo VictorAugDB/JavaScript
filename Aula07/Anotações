@@ -1,0 +1,14 @@
+Aula sobre operadores parte 1:
+
++ adição
+	- subtração
+* multiplicação
+/  divisão
+% resto
+** potenciação
+
+Ordem e precedência:
+()
+**
+/, %, *
++-
