@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do Dia</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
         <div id="msg">
-            Data de Nascimento <input type="number" name="txtdataNasc" id="txtdataNasc">
-        </br>
-            Sexo: 
-            <input type="radio" name="rdbMasc" id="rdbMasc"> Masculino
-            <input type="radio" name="rdbMasc" id="rdbFem"> Feminino 
-        </br>
-            <input type="button" value="Verificar">
+            <p>
+                Data de Nascimento:
+                <input type="number" name="txtdataNasc" id="txtdataNasc">
+            </p>
+
+            <p>
+                Sexo: 
+                <input type="radio" name="rdbSexo" id="rdbMas" checked>
+                <label for="rdbMas">Masculino</label>
+                <input type="radio" name="rdbSexo" id="rdbFem">
+                <label for="rdbFem">Feminino </label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick = 'verificar()'>
+            </p>
             
         </div>
-        <div id="foto">
-            <img id = "imagem" src="fotomanha.png" alt="Foto Do Dia">
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado...</p>
         </div>
     </section>
     <footer>&copy; Curso em Vídeo</footer>
